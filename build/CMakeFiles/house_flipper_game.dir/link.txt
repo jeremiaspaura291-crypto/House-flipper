@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhouse_flipper_game.a CMakeFiles/house_flipper_game.dir/src/Game.cpp.o
+/usr/bin/ranlib libhouse_flipper_game.a
