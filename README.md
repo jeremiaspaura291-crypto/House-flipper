@@ -25,7 +25,7 @@ La primera configuración descarga raylib desde GitHub mediante `FetchContent`. 
 
 ## APK Android
 
-La compilación final del APK se realiza exclusivamente en **GitHub Actions**. El workflow `.github/workflows/android.yml` instala JDK 17, Android SDK, NDK 26.3.11579264 y CMake 3.22.1; ejecuta las pruebas de lógica y genera `app-debug.apk` para `arm64-v8a`.
+La compilación final del APK se realiza exclusivamente en **GitHub Actions**. El workflow `.github/workflows/android.yml` instala JDK 17, Android SDK, NDK 26.3.11579264 y CMake 3.22.1; ejecuta las pruebas de lógica y genera `app-debug.apk` para `armeabi-v7a`.
 
 Para compilarlo, abrir la pestaña **Actions** del repositorio, seleccionar **House Flipper Android APK** y ejecutar el workflow manualmente. El archivo aparecerá como artefacto descargable con el nombre `house-flipper-android-debug-N`.
 
