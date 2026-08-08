@@ -15,6 +15,9 @@ FetchContent_Declare(
     GIT_SHALLOW TRUE
 )
 FetchContent_MakeAvailable(raylib)
+if(ANDROID AND CMAKE_ANDROID_ARCH_ABI STREQUAL "armeabi-v7a")
+    target_compile_definitions(raylib PRIVATE STBIR_NO_SIMD)
+endif()
 
 add_library(house_flipper_game STATIC src/Game.cpp)
 target_include_directories(house_flipper_game PUBLIC include)
