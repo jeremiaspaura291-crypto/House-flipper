@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/house_flipper.dir/src/main.cpp.o -o house_flipper  libhouse_flipper_game.a _deps/raylib-build/raylib/libraylib.a -lm -lpthread /usr/lib/x86_64-linux-gnu/libGL.so _deps/raylib-build/raylib/external/glfw/src/libglfw3.a /usr/lib/x86_64-linux-gnu/librt.a -lm -ldl 
